@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+.parent {
+    top: 10vw;
+    left: 39vw;
+    height: 600px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 16%);
+    position: relative;
+
+}
+
+.child {
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    border-radius: 50px;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+      
+}
+
+span {
+    position: relative;
+}
+
+.name {
+    font-size: 25px;
+    top: 160px;
+    left: 85px;
+} 
+
+.place {
+    top: 170px;
+    left: 91px;
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+}
+
+.job {
+    top: 200px;
+    left: 40px;
+    color: hsl(0, 0%, 87%);
+}
+
+a {
+    width: 300px;
+    text-align: center;
+    display: block;
+    padding: 7px;
+    background-color: rgb(67, 67, 67);
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a:hover {
+    background-color:hsl(75, 94%, 57%);
+}
+.social {
+    left: 10px;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    list-style: none;
+    line-height: 1.8;
+    bottom: 10px;
+}
+
